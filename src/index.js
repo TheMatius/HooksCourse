@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SimpleForm from './components/useEffect/SimpleForm';
 
-import HookApp from './containers/HookApp';
+// import CounterApp from './components/useState/CounterApp';
+// import CounterCustomHook from './components/useState/CounterCustomHook';
+
+// import HookApp from './containers/HookApp';
 
 ReactDOM.render(
-    <HookApp />,
-    document.getElementById("App")
+    <SimpleForm />,
+    document.getElementById("root")
 );
